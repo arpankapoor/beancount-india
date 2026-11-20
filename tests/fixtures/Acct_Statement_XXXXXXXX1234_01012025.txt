@@ -1,0 +1,5 @@
+
+  Date     ,Narration                                                                                                                ,Value Dat,Debit Amount       ,Credit Amount      ,Chq/Ref Number   ,Closing Balance
+ 02/01/25  ,ATM WITHDRAWAL, EXAMPLE LOCATION                                                                                         ,02/01/25 ,        125.50     ,          0.00     ,REF001                 ,       874.50  
+ 03/01/25  ,SALARY CREDIT                                                                                                            ,03/01/25 ,          0.00     ,        500.00     ,REF002                 ,      1374.50  
+ 04/01/25  ,CREDIT INTEREST CAPITALIZED                                                                                              ,05/01/25 ,          0.00     ,          1.25     ,REF003                 ,      1375.75  

@@ -1,0 +1,22 @@
+Name~|~EXAMPLE CUSTOMER
+Address~|~EXAMPLE ADDRESS
+Customer GSTN~|~
+Payment Due Date~|~25/01/2025
+Statement Date~|~05/01/2025
+Total Amount Due~|~2,372.00
+Minimum Amount Due~|~120.00
+
+Account Summary
+Opening Bal~|~-~|~Payment / Credit~|~+~|~Purchases / Debits~|~+~|~Finance Charges~|~=~|~Total Dues
+2,348.40~|~-~|~2,000.00~|~+~|~2,023.60~|~+~|~0.00~|~=~|~2,372.00
+
+Card No: 1234 56XX XXXX 1234
+
+Domestic / International Transactions
+Transaction type~|~Primary / Addon Customer Name~|~DATE~|~Description~|~AMT~|~Debit /Credit~|~REWARDS~|~
+Domestic~|~EXAMPLE CUSTOMER ~|~04/01/2025 08:38:04~|~PAYMENT RECEIVED ~|~2,000.00~|~Cr~|~~|~
+International~|~EXAMPLE CUSTOMER ~|~02/01/2025 18:56:14~|~EXAMPLE MERCHANT ~|~2,023.60~|~~|~+ 36~|~
+
+Reward Points Summary
+Opening Balance~|~Feature + Bonus Reward Points Earned~|~Disbursed~|~Adjusted/Lapsed~|~Closing Balance~|~Points expiring in next 30 days~|~Points expiring in next 60 days
+100~|~36~|~0~|~0~|~136~|~0~|~0

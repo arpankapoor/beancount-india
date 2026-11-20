@@ -1,0 +1,60 @@
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "check-added-large-files" },
+  { id = "check-case-conflict" },
+  { id = "check-merge-conflict" },
+  { id = "end-of-file-fixer" },
+  { id = "trailing-whitespace", exclude = "^tests/fixtures/" },
+]
+
+[[repos]]
+repo = "https://github.com/astral-sh/uv-pre-commit"
+rev = "0.13.9"
+hooks = [{ id = "uv-lock" }]
+
+[[repos]]
+repo = "https://github.com/astral-sh/ruff-pre-commit"
+rev = "v0.17.6"
+hooks = [{ id = "ruff-check", args = ["--fix"] }, { id = "ruff-format" }]
+
+[[repos]]
+repo = "https://github.com/astral-sh/ty-pre-commit"
+rev = "v0.0.107"
+hooks = [{ id = "ty" }]
+
+[[repos]]
+repo = "https://github.com/ComPWA/taplo-pre-commit"
+rev = "v0.9.3"
+hooks = [{ id = "taplo-format" }]
+
+[[repos]]
+repo = "https://github.com/google/yamlfmt"
+rev = "v0.21.0"
+hooks = [{ id = "yamlfmt" }]
+
+[[repos]]
+repo = "https://github.com/rhysd/actionlint"
+rev = "v1.7.12"
+hooks = [{ id = "actionlint" }]
+
+[[repos]]
+repo = "https://github.com/DavidAnson/markdownlint-cli2"
+rev = "v0.24.2"
+hooks = [{ id = "markdownlint-cli2" }]
+
+[[repos]]
+repo = "https://github.com/crate-ci/typos"
+rev = "v1.52.2"
+hooks = [{ id = "typos" }]
+
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "tests"
+name = "tests"
+entry = "uv run --locked python -m unittest discover -s tests"
+language = "system"
+pass_filenames = false
+always_run = true

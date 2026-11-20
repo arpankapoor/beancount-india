@@ -1,0 +1,36 @@
+[project]
+name = "beancount-india"
+version = "0.1.0"
+description = "Beancount importers for Indian financial institutions"
+readme = "README.md"
+license = "GPL-2.0-only"
+license-files = ["LICENSE"]
+authors = [{ name = "Arpan Kapoor", email = "a@arpankapoor.com" }]
+keywords = ["beancount", "beangulp", "hdfc", "india"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Typing :: Typed",
+]
+requires-python = ">=3.11"
+dependencies = ["beangulp>=0.2.0"]
+
+[project.urls]
+Homepage = "https://github.com/arpankapoor/beancount-india"
+Issues = "https://github.com/arpankapoor/beancount-india/issues"
+Repository = "https://github.com/arpankapoor/beancount-india"
+
+[dependency-groups]
+dev = ["ruff", "ty"]
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
